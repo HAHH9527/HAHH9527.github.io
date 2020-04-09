@@ -1,15 +1,6 @@
-# 允许所有用户代理的浏览器爬虫进行访问（爬起数据）
 User-agent: *
 
-# 允许访问的内容
 Allow: /
 
-# 不允许访问的内容
-Disallow: /download/
-Disallow: /images/
-Disallow: /archives/
-Disallow: /categories/
-Disallow: /tags/
-
-Disallow: /*.js
-Disallow: /*.css
+Sitemap: http://hahh9527.github.io/sitemap.xml
+Sitemap: http://hahh9527.github.io/baidusitemap.xml
