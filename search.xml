@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Travellings-去看更多有意思的生活</title>
+    <url>/2020/04/13/Travellings-%E5%8E%BB%E7%9C%8B%E6%9B%B4%E5%A4%9A%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E7%94%9F%E6%B4%BB/</url>
+    <content><![CDATA[<p>Travellings是一个开源项目，连接了很多不一样的博客，就像一个邮轮一样，把不同的孤岛连接在了一起。</p>
+<a id="more"></a>
+<p>个人觉得可以当做是一个随便看看的按钮，当你无聊的时候就可以戳过去看看，或许你就能看见一个眼前一亮的博客。</p>
+<h2 id="GitHub页面"><a href="#GitHub页面" class="headerlink" title="GitHub页面"></a>GitHub页面</h2><p><a href="https://github.com/volfclub/travellings" target="_blank" rel="noopener">开往-友链接力</a></p>
+<hr>
+<h2 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h2><h3 id="零-方法-0"><a href="#零-方法-0" class="headerlink" title="零 方法(0)"></a>零 方法(0)</h3><p>用任意方法指向这个链接</p>
+<pre><code>https://travellings.now.sh/</code></pre><h3 id="一-方法-1"><a href="#一-方法-1" class="headerlink" title="一 方法(1)"></a>一 方法(1)</h3><p>引入JavaScript:</p>
+<pre><code>https://cdn.jsdelivr.net/gh/volfclub/travellings/assets/travelling.min.js</code></pre><p>然后调用JS:</p>
+<pre><code>javascript:travelling()</code></pre><h3 id="贰-说明"><a href="#贰-说明" class="headerlink" title="贰 说明"></a>贰 说明</h3><p>最后都需去<a href="https://github.com/volfclub/travellings" target="_blank" rel="noopener">项目地址</a>提交Issues等待收录<br><strong><em>更多详细用法以开源页面为准</em></strong></p>
+<hr>
+<h2 id="演示"><a href="#演示" class="headerlink" title="演示"></a>演示</h2><p><a href="https://travellings.now.sh/" target="_blank" rel="noopener"><img src="Travellings.gif" alt="Travellings"></a><br><a href="javascript:travelling()"><img src="Travellings.gif" alt="Travellings"></a></p>
+<h3 id="MD语法"><a href="#MD语法" class="headerlink" title="MD语法"></a>MD语法</h3><pre><code>[![Travellings](Travellings.gif)](https://travellings.now.sh/)</code></pre><h3 id="HTML代码写法"><a href="#HTML代码写法" class="headerlink" title="HTML代码写法"></a>HTML代码写法</h3><pre><code>&lt;a href=&quot;https://travellings.now.sh/&quot; target=&quot;blank&quot; title=&quot;开往-友链接力&quot;&gt;
+    &lt;img src=&quot;https://travellings.now.sh/assets/logo.gif&quot; alt=&quot;开往-友链接力&quot; width=&quot;120&quot;&gt;
+&lt;/a&gt;</code></pre><hr>
+<h2 id="End"><a href="#End" class="headerlink" title="End"></a>End</h2>]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>找工作踩坑记</title>
     <url>/2020/04/01/%E6%89%BE%E5%B7%A5%E4%BD%9C%E8%B8%A9%E5%9D%91%E8%AE%B0/</url>
     <content><![CDATA[<p>记一次坑爹的找工作,留作记忆<br>公司名称:上海仙豆网络信息科技有限责任公司<br>老板:郭姓男子</p>
@@ -12,11 +37,11 @@
 <p><img src="%E6%8B%9B%E8%81%98%E9%A1%B5%E9%9D%A2.jpg" alt="招聘页面"></p>
 ]]></content>
       <categories>
-        <category>程序员</category>
+        <category>生活小记</category>
       </categories>
       <tags>
-        <tag>求职</tag>
-        <tag>生活琐事</tag>
+        <tag>原创</tag>
+        <tag>程序员</tag>
       </tags>
   </entry>
   <entry>
@@ -80,8 +105,7 @@
       </categories>
       <tags>
         <tag>剑网3</tag>
-        <tag>小工具</tag>
-        <tag>有下载资源</tag>
+        <tag>原创</tag>
       </tags>
   </entry>
   <entry>
@@ -116,7 +140,7 @@
         <category>博客搭建</category>
       </categories>
       <tags>
-        <tag>杂项</tag>
+        <tag>技术</tag>
       </tags>
   </entry>
 </search>
