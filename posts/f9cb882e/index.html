@@ -7,13 +7,13 @@
 <head>
   <meta charset="utf-8" />
    
-  <meta name="keywords" content="昏暗槐花,程序员,Android,安卓,Hexo,剑三,剑网三" />
+  <meta name="keywords" content="abbrlink,昏暗槐花,程序员,Android,安卓,Hexo,剑三,剑网三" />
    
   <meta name="description" content="昏暗槐花,Android程序员一枚" />
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <title>
-    关于本人 |  昏暗槐花的咸味小店
+    abbrlink-文章替换永久链接 |  昏暗槐花的咸味小店
   </title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   
@@ -44,7 +44,7 @@
   <div id="app">
     <main class="content on">
       <section class="outer">
-  <article id="page-" class="article article-type-page" itemscope
+  <article id="post-abbrlink-文章替换永久链接" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
 
   <div class="article-inner">
@@ -52,7 +52,7 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  关于本人
+  abbrlink-文章替换永久链接
 </h1>
  
 
@@ -60,6 +60,47 @@
     
 
     
+    <div class="article-meta">
+      <a href="/posts/f9cb882e/" class="article-date">
+  <time datetime="2020-04-19T05:40:02.000Z" itemprop="datePublished">2020-04-19</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">博客搭建</a>
+  </div>
+
+      
+      
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> 字数统计:</span>
+            <span class="post-count">301</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> 阅读时长≈</span>
+            <span class="post-count">1 分钟</span>
+        </span>
+    </span>
+</div>
+
+      
+    </div>
+    
+
+    
+    
+    <div class="tocbot"></div>
+
+
+
+
 
     
 
@@ -69,16 +110,49 @@
       
 
       
-      <ul>
-<li>湖南人一枚</li>
-<li>于2019年7月，毕业于湖南科技职业学院-移动应用开发(Android)</li>
-<li>于2019年7月15日-2020年1月31日，就职于湖南巨龙互联信息技术有限公司</li>
-<li>于2020年3月30日-至今，就职于上海奕己信息科技有限公司</li>
-<li>Android程序猿</li>
-<li>剑三普通玩家</li>
-<li>Email:<a href="mailto:hahh9527@qq.com">hahh9527@qq.com</a></li>
-</ul>
-<p><a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=q5qbmZ_TmJuZnp7r2tqFyMTG" target="_blank" rel="noopener"><img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_22.png" alt="qqmail"></a></p>
+      <p>为了解决博客文章地址栏老长一截的问题，顺便优化SEO，引入了abbrlink插件，原有文章老地址都失效了。</p>
+<a id="more"></a>
+
+<h2 id="插件github页"><a href="#插件github页" class="headerlink" title="插件github页"></a>插件github页</h2><p><a href="https://github.com/Rozbo/hexo-abbrlink" target="_blank" rel="noopener">hexo-abbrlink</a></p>
+<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>github页面的中文说明不知因何原因404了，在网上找到了原作者在其他地方写的文章说了一下他的思路。<br><a href="https://segmentfault.com/a/1190000005799711" target="_blank" rel="noopener">链接</a></p>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>安装</p>
+<pre><code>npm install hexo-abbrlink --save</code></pre><p>修改config.yml</p>
+<pre><code># 修改文章的永久链接格式
+permalink: posts/:abbrlink/
+
+# 增加abbrlink插件配置
+abbrlink:
+  alg: crc32  #算法，可选crc16(default) and crc32
+  rep: hex    #编号进制，可选dec(default) and hex</code></pre><p>其中<strong>posts/:abbrlink/</strong>可以替换成其他你想要的路径<strong>:abbrlink</strong>为插件生成的短链。<br>记得先<strong>clean</strong>，运行<strong>generate</strong>后，会在文章md文件的Front-matter内增加abbrlink字段</p>
+<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>这次转换把文章原来的链接变成死链了…<br>过一段时间后检查一下搜索引擎收录和排名有没有问题。</p>
+<h2 id="文章名称对应新链接地址"><a href="#文章名称对应新链接地址" class="headerlink" title="文章名称对应新链接地址"></a>文章名称对应新链接地址</h2><table>
+<thead>
+<tr>
+<th>文章名称</th>
+<th>新链接</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Travellings-去看更多有意思的生活</td>
+<td><a href="/posts/dec33ddb/">/posts/dec33ddb/</a></td>
+</tr>
+<tr>
+<td>找工作踩坑记</td>
+<td><a href="/posts/6ed5ccae/">/posts/6ed5ccae/</a></td>
+</tr>
+<tr>
+<td>剑三-世界BOSS工资表格</td>
+<td><a href="/posts/1e807349/">/posts/1e807349/</a></td>
+</tr>
+<tr>
+<td>英雄联盟壁纸</td>
+<td><a href="/posts/d3dd5c3b/">/posts/d3dd5c3b/</a></td>
+</tr>
+<tr>
+<td>Hexo搭建测试</td>
+<td><a href="/posts/4192bb22/">/posts/4192bb22/</a></td>
+</tr>
+</tbody></table>
 
       
       <!-- reward -->
@@ -133,13 +207,15 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://hahh9527.github.io/aboutme/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://hahh9527.github.io/posts/f9cb882e/" alt="微信分享二维码">
     </div>
 </div>
 
 <div id="share-mask"></div>
       
       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li></ul>
+
 
     </footer>
 
@@ -147,11 +223,75 @@
 
   
   
+  <nav class="article-nav">
+    
+    
+      <a href="/posts/ead59be7/" class="article-nav-link">
+        <strong class="article-nav-caption">下一篇</strong>
+        <div class="article-nav-title">TodoList-整理时间和思路</div>
+      </a>
+    
+  </nav>
+
 
   
 
   
+  
+<!-- valine评论 -->
+<div id="vcomments-box">
+    <div id="vcomments">
+    </div>
+</div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js'></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        app_id: 'fGbHcfwGuMGGS5qbBmQMWyVt-gzGzoHsz',
+        app_key: 'cn5aeC3WtDfNnkJVrYqNE4m1',
+        path: window.location.pathname,
+        notify: 'false',
+        verify: 'false',
+        avatar: 'monsterid',
+        placeholder: '给我的文章加点评论吧~',
+        recordIP: true
+    });
+    const infoEle = document.querySelector('#vcomments .info');
+    if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
+        infoEle.childNodes.forEach(function (item) {
+            item.parentNode.removeChild(item);
+        });
+    }
+</script>
+<style>
+    #vcomments-box {
+        padding: 5px 30px;
+    }
 
+    @media screen and (max-width: 800px) {
+        #vcomments-box {
+            padding: 5px 0px;
+        }
+    }
+
+    #vcomments-box #vcomments {
+        background-color: #fff;
+    }
+
+    .v .vlist .vcard .vh {
+        padding-right: 20px;
+    }
+
+    .v .vlist .vcard {
+        padding-left: 10px;
+    }
+</style>
+
+  
+
+  
+  
   
   
   
@@ -241,7 +381,7 @@
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/aboutme">关于我</a>
+      <a class="nav-item-link" href="/about">关于我</a>
     </li>
     
     <li class="nav-item">
@@ -323,6 +463,24 @@
 </script>
 
 
+
+
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  // Tocbot_v4.7.0  http://tscanlin.github.io/tocbot/
+  tocbot.init({
+    tocSelector: '.tocbot',
+    contentSelector: '.article-entry',
+    headingSelector: 'h1, h2, h3, h4, h5, h6',
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: 'main',
+    positionFixedSelector: '.tocbot',
+    positionFixedClass: 'is-position-fixed',
+    fixedSidebarOffset: 'auto'
+  });
+</script>
 
 
 

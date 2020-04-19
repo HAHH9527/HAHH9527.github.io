@@ -1,6 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>abbrlink-文章替换永久链接</title>
+    <url>/posts/f9cb882e/</url>
+    <content><![CDATA[<p>为了解决博客文章地址栏老长一截的问题，顺便优化SEO，引入了abbrlink插件，原有文章老地址都失效了。</p>
+<a id="more"></a>
+
+<h2 id="插件github页"><a href="#插件github页" class="headerlink" title="插件github页"></a>插件github页</h2><p><a href="https://github.com/Rozbo/hexo-abbrlink" target="_blank" rel="noopener">hexo-abbrlink</a></p>
+<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>github页面的中文说明不知因何原因404了，在网上找到了原作者在其他地方写的文章说了一下他的思路。<br><a href="https://segmentfault.com/a/1190000005799711" target="_blank" rel="noopener">链接</a></p>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>安装</p>
+<pre><code>npm install hexo-abbrlink --save</code></pre><p>修改config.yml</p>
+<pre><code># 修改文章的永久链接格式
+permalink: posts/:abbrlink/
+
+# 增加abbrlink插件配置
+abbrlink:
+  alg: crc32  #算法，可选crc16(default) and crc32
+  rep: hex    #编号进制，可选dec(default) and hex</code></pre><p>其中<strong>posts/:abbrlink/</strong>可以替换成其他你想要的路径<strong>:abbrlink</strong>为插件生成的短链。<br>记得先<strong>clean</strong>，运行<strong>generate</strong>后，会在文章md文件的Front-matter内增加abbrlink字段</p>
+<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>这次转换把文章原来的链接变成死链了…<br>过一段时间后检查一下搜索引擎收录和排名有没有问题。</p>
+<h2 id="文章名称对应新链接地址"><a href="#文章名称对应新链接地址" class="headerlink" title="文章名称对应新链接地址"></a>文章名称对应新链接地址</h2><table>
+<thead>
+<tr>
+<th>文章名称</th>
+<th>新链接</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Travellings-去看更多有意思的生活</td>
+<td><a href="/posts/dec33ddb/">/posts/dec33ddb/</a></td>
+</tr>
+<tr>
+<td>找工作踩坑记</td>
+<td><a href="/posts/6ed5ccae/">/posts/6ed5ccae/</a></td>
+</tr>
+<tr>
+<td>剑三-世界BOSS工资表格</td>
+<td><a href="/posts/1e807349/">/posts/1e807349/</a></td>
+</tr>
+<tr>
+<td>英雄联盟壁纸</td>
+<td><a href="/posts/d3dd5c3b/">/posts/d3dd5c3b/</a></td>
+</tr>
+<tr>
+<td>Hexo搭建测试</td>
+<td><a href="/posts/4192bb22/">/posts/4192bb22/</a></td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>博客搭建</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>TodoList-整理时间和思路</title>
     <url>/posts/ead59be7/</url>
     <content><![CDATA[<h2 id="0-启"><a href="#0-启" class="headerlink" title="0-启"></a>0-启</h2><p>在现在的生活工作当中，有很多突如其来的事情，如果一会没记住，过会你就很难再想起来了，等你想起来了又不知道是什么时候了。</p>
@@ -187,7 +241,7 @@
         <category>博客搭建</category>
       </categories>
       <tags>
-        <tag>技术</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
 </search>
