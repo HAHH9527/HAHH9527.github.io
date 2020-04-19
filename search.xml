@@ -1,9 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>TodoList-整理时间和思路</title>
+    <url>/posts/ead59be7/</url>
+    <content><![CDATA[<h2 id="0-启"><a href="#0-启" class="headerlink" title="0-启"></a>0-启</h2><p>在现在的生活工作当中，有很多突如其来的事情，如果一会没记住，过会你就很难再想起来了，等你想起来了又不知道是什么时候了。</p>
+<a id="more"></a>
+
+<h2 id="1-背景"><a href="#1-背景" class="headerlink" title="1-背景"></a>1-背景</h2><p>在前几天上班的时候，同事review了我的代码，提出了几个修改建议，但是说完之后基本就忘掉了，根本想不起来改完这个点之后还有哪个地方需要再继续修改。<br>导致我一直在那脑回路断线，想着还有哪没改，不知道还有什么没做完。<br>这么一直想着哪没改，导致我比较难集中注意力，就很迷的在做当前手上的任务。<br>在做的时候又同时想着这哪没改，那哪没改，头都晕了。</p>
+<h2 id="2-思考"><a href="#2-思考" class="headerlink" title="2-思考"></a>2-思考</h2><p>这么一整，实在坚持不住了，我就在想有没有啥好方法能记录一下。<br>就想了这么几个方法</p>
+<ol>
+<li>简单的用Notepad++记录一下(格式不好处理，没法记录太多内容)</li>
+<li>写个MD文档在项目中(要写的话有强迫症，要多写点又很浪费时间)</li>
+<li>拿个本子拿支笔写本子上(这不符合程序员的思维方式啊)</li>
+<li>突然想到好像是不是有一些叫做TodoList的软件</li>
+<li>git软件上是不是有那种任务白板(尝试了一下”GitKraken”好像不是很好用)</li>
+</ol>
+<h2 id="3-查找"><a href="#3-查找" class="headerlink" title="3-查找"></a>3-查找</h2><p>在网上搜索了一些关于TodoList的内容，发现还是有不少东西。</p>
+<ol>
+<li>有一些独立的应用程序(桌面版)，但一看就知道是没有人去维护的，有点像在校生做完就不管了的软件demo。</li>
+<li>发现了一个网页版，只用于本地记录，记下了<a href="http://www.todolist.cn/" target="_blank" rel="noopener">www.todolist.cn</a></li>
+<li>一些可以多端同步的清单软件<ul>
+<li><a href="https://todo.microsoft.com/tasks/" target="_blank" rel="noopener">微软Todo</a></li>
+<li><a href="https://www.wunderlist.com/" target="_blank" rel="noopener">奇妙清单</a>(好像是被微软收购了，然后有了现在的”<a href="https://todo.microsoft.com/tasks/" target="_blank" rel="noopener">微软Todo</a>“)</li>
+<li><a href="https://www.dida365.com/" target="_blank" rel="noopener">滴答清单</a></li>
+<li>…</li>
+</ul>
+</li>
+</ol>
+<h2 id="4-使用"><a href="#4-使用" class="headerlink" title="4-使用"></a>4-使用</h2><p>本着尽量使用同生态的软件的心态，我选择了微软Todo。<br>用了半周，感觉用起来还算顺手。</p>
+<ul>
+<li>界面还算美观</li>
+<li>添加任务直接按回车可以连续添加</li>
+<li>每个任务可以添加子项，备注</li>
+<li>任务可以分组<br>也发现了一些缺点</li>
+<li>网页版打开极慢</li>
+<li>PC端只有UWP程序(只有win10通过应用商店下载可用)</li>
+</ul>
+<h2 id="5-总结"><a href="#5-总结" class="headerlink" title="5-总结"></a>5-总结</h2><p>这么用下来的感觉是，把每件事都记在了清单上，可以放空脑袋来安心处理当前的事情。<br>感觉无形中减小了自己的压力，提高了一些工作效率吧。<br><strong><em>只要你的工作不是一成不变的重复劳动，记录一下要做的事感觉还是挺重要的。</em></strong></p>
+<h2 id="6-截图"><a href="#6-截图" class="headerlink" title="6-截图"></a>6-截图</h2><p><img src="%E5%BE%AE%E8%BD%AFTodo-pc.png" alt="微软Todo-pc"></p>
+]]></content>
+      <categories>
+        <category>生活小记</category>
+      </categories>
+      <tags>
+        <tag>心得分享</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Travellings-去看更多有意思的生活</title>
-    <url>/2020/04/13/Travellings-%E5%8E%BB%E7%9C%8B%E6%9B%B4%E5%A4%9A%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E7%94%9F%E6%B4%BB/</url>
-    <content><![CDATA[<p>Travellings是一个开源项目，连接了很多不一样的博客，就像一个邮轮一样，把不同的孤岛连接在了一起。</p>
+    <url>/posts/dec33ddb/</url>
+    <content><![CDATA[<p><a href="https://github.com/volfclub/travellings" target="_blank" rel="noopener">Travellings</a>是一个开源项目，连接了很多不一样的博客，就像一个邮轮一样，把不同的孤岛连接在了一起。</p>
 <a id="more"></a>
 <p>个人觉得可以当做是一个随便看看的按钮，当你无聊的时候就可以戳过去看看，或许你就能看见一个眼前一亮的博客。</p>
 <h2 id="GitHub页面"><a href="#GitHub页面" class="headerlink" title="GitHub页面"></a>GitHub页面</h2><p><a href="https://github.com/volfclub/travellings" target="_blank" rel="noopener">开往-友链接力</a></p>
@@ -23,16 +69,17 @@
       </categories>
       <tags>
         <tag>技术</tag>
+        <tag>心得分享</tag>
       </tags>
   </entry>
   <entry>
     <title>找工作踩坑记</title>
-    <url>/2020/04/01/%E6%89%BE%E5%B7%A5%E4%BD%9C%E8%B8%A9%E5%9D%91%E8%AE%B0/</url>
+    <url>/posts/6ed5ccae/</url>
     <content><![CDATA[<p>记一次坑爹的找工作,留作记忆<br>公司名称:上海仙豆网络信息科技有限责任公司<br>老板:郭姓男子</p>
 <a id="more"></a>
 
-<p><strong><em>谨慎关键词</em></strong><br>反编译<br>办签证,有机会出国旅游/工作</p>
-<p><strong><em>经过</em></strong><br>因2020年初疫情影响,原公司裁员,在家网投简历.<br>其中碰上这家,多次提及是否会用反编译工具等(工具而已，看看用基本会).<br>其提出待遇还算OK:包住水电煤/试用期三个月工资4.5k/转正税后6k以上(前公司长沙4k).<br>有机会出国旅游/出差,在家办好签证.<br>面试后约定前往上海时间,其反复回答等一段时间看看,在家也不记任何工作.<br>期间有其他公司offer,疫情期间在家办公,工资周结(为啥不答应呢).<br>多次说让我等一段时间再去,我反复催促多久能去,为此我车票都退了两次,还是在我的坚持下才让我来上海.<br>到上海后依旧不记工作,在住地隔离14天.<br>去了第一天就让我改个棋牌赌博APP,当场满头问号,这是干啥.<br>后了解到其棋牌赌博类应用很多,均为东南亚外包.<br>另有色情类应用(非擦边球,上不了应用市场).<br>最过分的来了,让我反编译某SQ快报APP,提出一周能运行,我就满头包.<br>上班2周+2天后离职,我还在找房子,语气就开始赶人走了.<br>对了,从同事出得知需长期驻东南亚,其发包公司转正月薪10k-25k.</p>
+<h2 id="谨慎关键词"><a href="#谨慎关键词" class="headerlink" title="谨慎关键词"></a>谨慎关键词</h2><p>反编译<br>办签证,有机会出国旅游/工作</p>
+<h2 id="经过"><a href="#经过" class="headerlink" title="经过"></a>经过</h2><p>因2020年初疫情影响,原公司裁员,在家网投简历.<br>其中碰上这家,多次提及是否会用反编译工具等(工具而已，看看用基本会).<br>其提出待遇还算OK:包住水电煤/试用期三个月工资4.5k/转正税后6k以上(前公司长沙4k).<br>有机会出国旅游/出差,在家办好签证.<br>面试后约定前往上海时间,其反复回答等一段时间看看,在家也不记任何工作.<br>期间有其他公司offer,疫情期间在家办公,工资周结(为啥不答应呢).<br>多次说让我等一段时间再去,我反复催促多久能去,为此我车票都退了两次,还是在我的坚持下才让我来上海.<br>到上海后依旧不记工作,在住地隔离14天.<br>去了第一天就让我改个棋牌赌博APP,当场满头问号,这是干啥.<br>后了解到其棋牌赌博类应用很多,均为东南亚外包.<br>另有色情类应用(非擦边球,上不了应用市场).<br>最过分的来了,让我反编译某SQ快报APP,提出一周能运行,我就满头包.<br>上班2周+2天后离职,我还在找房子,语气就开始赶人走了.<br>对了,从同事出得知需长期驻东南亚,其发包公司转正月薪10k-25k.</p>
 <p><strong><em>总结</em></strong><br>谨慎反编译和出国这两词,有眼前的机会多考虑一下,不要觉得不好意思拒绝offer.</p>
 <p><img src="%E6%8B%9B%E8%81%98%E9%A1%B5%E9%9D%A2.jpg" alt="招聘页面"></p>
 ]]></content>
@@ -46,14 +93,14 @@
   </entry>
   <entry>
     <title>剑三-世界BOSS工资表格</title>
-    <url>/2020/01/20/%E5%89%91%E4%B8%89-%E4%B8%96%E7%95%8CBOSS%E5%B7%A5%E8%B5%84%E8%A1%A8%E6%A0%BC/</url>
-    <content><![CDATA[<h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p><a href="/download/jw3/世界BOSS工资智能表格-latest.xlsx">表格下载⏬</a><br>本表格用于解决剑三的世界BOSS工资计算过于麻烦，将计算内容交由表格完成，方便快速完成统计，和减少人工误算</p>
+    <url>/posts/1e807349/</url>
+    <content><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p><a href="/download/jw3/世界BOSS工资智能表格-latest.xlsx">表格下载⏬</a><br>本表格用于解决剑三的世界BOSS工资计算过于麻烦，将计算内容交由表格完成，方便快速完成统计，和减少人工误算</p>
 <p>表格所有锁定内容密码为空，如需修改可自行修改，如重新修改后向外发布望保留此文链接，并带上一份我的ID，谢谢🤣</p>
 <p>如有问题和改进建议欢迎在下方进行回复，我会及时收到邮件提醒。回复你，你也可以收到提醒邮件</p>
 <p><strong><em>E列人数务必在空处填0，否则此行会按一人计算！！！</em></strong></p>
 <ul>
 <li>如图片看不清，请点击图片查看大图(或Ctrl+滚轮缩放界面)<a id="more"></a>
-<h1 id="功能介绍"><a href="#功能介绍" class="headerlink" title="功能介绍"></a>功能介绍</h1></li>
+<h2 id="功能介绍"><a href="#功能介绍" class="headerlink" title="功能介绍"></a>功能介绍</h2></li>
 <li><a href="#工资发放等金额统计">计算拍卖总额</a></li>
 <li><a href="#工资发放等金额统计">可有额外收支</a></li>
 <li><a href="#工资发放等金额统计">自动计算人均</a></li>
@@ -62,7 +109,7 @@
 <li><a href="#工资发放等金额统计">取整后少发放金额盈余一目了然</a></li>
 <li><a href="#用于多装备的大老板的计算方便">大老板多件装备总和一步统计</a></li>
 <li>备注功能</li>
-<li>表格计算区域锁定，防误编辑<h1 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h1><img src="%E9%A2%84%E8%A7%88.png" alt="预览"><h1 id="工资发放等金额统计"><a href="#工资发放等金额统计" class="headerlink" title="工资发放等金额统计"></a>工资发放等金额统计</h1><img src="%E5%B7%A5%E8%B5%84%E5%8F%91%E6%94%BE%E7%AD%89%E9%87%91%E9%A2%9D%E7%BB%9F%E8%AE%A1.png" alt="工资发放等金额统计"><h1 id="用于多装备的大老板的计算"><a href="#用于多装备的大老板的计算" class="headerlink" title="用于多装备的大老板的计算"></a>用于多装备的大老板的计算</h1><img src="%E8%80%81%E6%9D%BF%E8%AE%A1%E7%AE%97.png" alt="老板计算"><h1 id="隐藏列"><a href="#隐藏列" class="headerlink" title="隐藏列"></a>隐藏列</h1><img src="%E9%9A%90%E8%97%8F%E5%88%97.png" alt="隐藏列"><h1 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h1></li>
+<li>表格计算区域锁定，防误编辑<h2 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h2><img src="%E9%A2%84%E8%A7%88.png" alt="预览"><h3 id="工资发放等金额统计"><a href="#工资发放等金额统计" class="headerlink" title="工资发放等金额统计"></a>工资发放等金额统计</h3><img src="%E5%B7%A5%E8%B5%84%E5%8F%91%E6%94%BE%E7%AD%89%E9%87%91%E9%A2%9D%E7%BB%9F%E8%AE%A1.png" alt="工资发放等金额统计"><h3 id="用于多装备的大老板的计算"><a href="#用于多装备的大老板的计算" class="headerlink" title="用于多装备的大老板的计算"></a>用于多装备的大老板的计算</h3><img src="%E8%80%81%E6%9D%BF%E8%AE%A1%E7%AE%97.png" alt="老板计算"><h3 id="隐藏列"><a href="#隐藏列" class="headerlink" title="隐藏列"></a>隐藏列</h3><img src="%E9%9A%90%E8%97%8F%E5%88%97.png" alt="隐藏列"><h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2></li>
 </ul>
 <p><strong><em>点击版本号可下载历史版本</em></strong></p>
 <table>
@@ -110,7 +157,7 @@
   </entry>
   <entry>
     <title>英雄联盟壁纸</title>
-    <url>/2020/01/20/%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E5%A3%81%E7%BA%B8/</url>
+    <url>/posts/d3dd5c3b/</url>
     <content><![CDATA[<p><a href="http://lol.qq.com/act/a20170908guardian/#!/extras" target="_blank" rel="noopener">2017星之守护者</a>–壁纸下载在最底端</p>
 <a id="more"></a>
 <p><img src="xzshz_1920x1080.jpg" alt="星之守护者1920x1080壁纸"></p>
@@ -125,13 +172,13 @@
   </entry>
   <entry>
     <title>Hexo搭建测试</title>
-    <url>/2020/01/19/Hexo%E6%90%AD%E5%BB%BA%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><ul>
+    <url>/posts/4192bb22/</url>
+    <content><![CDATA[<h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><ul>
 <li><a href="https://hexo.io/" target="_blank" rel="noopener">官网</a></li>
 <li><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">中文文档</a></li>
 <li>使用主题:<a href="https://shen-yu.gitee.io/2019/ayer/" target="_blank" rel="noopener">Ayer</a></li>
 </ul>
-<h1 id="评论系统"><a href="#评论系统" class="headerlink" title="评论系统"></a>评论系统</h1><ul>
+<h2 id="评论系统"><a href="#评论系统" class="headerlink" title="评论系统"></a>评论系统</h2><ul>
 <li><a href="https://github.com/xCss/Valine" target="_blank" rel="noopener">Valine</a>–无后端评论系统</li>
 <li><a href="https://github.com/DesertsP/Valine-Admin" target="_blank" rel="noopener">Valine-Admin</a>–邮件提醒扩展</li>
 </ul>
